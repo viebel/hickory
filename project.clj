@@ -8,12 +8,12 @@
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [org.clojure/clojurescript "1.9.293"]
                  [org.jsoup/jsoup "1.9.2"]
-                 [viebel/codox-klipse-theme "0.0.1"]
+                 [viebel/codox-klipse-theme "0.0.5"]
                  [quoin "0.1.2" :exclusions [org.clojure/clojure]]]
 
   :hooks [leiningen.cljsbuild]
 
-  :plugins [[lein-codox "0.10.0"]]
+  :plugins [[lein-codox "0.10.2"]]
   :doo {:build "test"}
 
   :source-paths ["src/clj" "src/cljc" "src/cljs"]
